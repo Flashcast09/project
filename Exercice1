@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercice 1</h1>
+        <p>
+        Ecrivez le code HTML permettant de réaliser la page représentée sur la figure ci-dessous.
+        <br>L'image correspond à un fichier nommé dessin.png. Elle se trouve dans le sous répertoire images qui est au
+        <br>même niveau que la page html).
+        </p>
+
+        <p>
+        Un beau texte avec une <img src="./images/dessin.png"> image. L'image s'appelle "dessin.png", et se trouve dans le dossiers "images".
+        <br>Celui-ci est situé au même endroit que la page a écrire.
+        </p>
+
+    <h1><strong>Première partie</strong></h1>
+        <p>
+            On vous demande ici
+            <ul>
+                <li>D'écrire le code html strict qui correspond à cette page</li>
+                <li>On n'utilisera pas ici de <em>feuille de style.</em></li>
+            </ul>
+        </p>
+
+    <h1><strong>Seconde partie</strong></h1>
+
+        <p>
+            voir exo2
+        </p>
+
+    <h1><strong>Jouons avec les listes imbriquées</strong></h1>
+        <ol>
+            <li>Ceci est le premier élément numéroté</li>
+            <li>Ceci est le deuxième élément numéroté</li>
+                <ul>
+                    <li>Ceci est le premier sous-élément du deuxième élément numéroté</li>
+                
+                    <ol>
+                        <li>Et ceci est un sous-élément numéroté d'un sous-élément</li>
+                        <li>Et ceci est un autre sous-élément numéroté du même sous-élément</li>
+                        <li>Vous suivez toujours?</li>
+                    </ol>
+        
+         
+                    <li>Ceci est le deuxième sous-élément du deuxième élément numéroté</li>
+                    <li>Ceci est le troisième sous-élément du deuxième élément numéroté</li>
+                </ul>
+            
+            <li>Ceci est le premier élément numéroté qui contient deux définitions <br>facile  
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qui n'est pas difficile 
+                <br>difficile
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;synonyme de compliqué
+            </li>
+            
+           
+        
+        </ol>        
+          
+
+
+    
+</body>
+</html>
