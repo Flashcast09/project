@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><strong>Les livres du mois</strong></h3>
+    <br>
+    <br>
+    <div>
+        
+            <h4><strong>Les misérables (Victor Hugo)</strong></h4>
+            
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100sous
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ca chauffe salement pour Valjean. A peine libéré, saura t-il échapper _a l'infâme Javert?
+        </p>
+    </div>
+    <div>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong>
+                DarkLordAcademia
+            </strong>
+             : ben, ils meurent tous les deux _a la_n
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong>
+                Guy de M.
+            </strong>
+            : c'est pas très émoustillant.
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <strong>
+                Charles B.
+            </strong>
+            : le Totor, je le préfère en poète.
+        </p>
+    </div>
+
+    <div>
+        <h4><strong>Les fleurs du mal (Charles Baudelaire)</strong></h4>
+        
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120sous 
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Une suite de poèmes sur la femme, le vin,la mort et quelques autres.
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Louis N. B. : outrage indigne à la morale publique, aussi scandaleux pour la morale que les
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;misérables l'est en politique.
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Victor H. : pas mal pour un petit jeune
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guy de M. : je préférais le titre d'origine.
+            </p>
+    </div>
+</body>
+</html>
