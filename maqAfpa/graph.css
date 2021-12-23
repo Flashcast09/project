@@ -1,0 +1,98 @@
+.myuka{
+    color: ghostwhite;
+    background-color:forestgreen;
+    text-align: center;
+    padding: 25px;
+    border: solid 2px black;
+    height: 150px;
+    width: 100%;
+    
+}
+
+.formulaire{
+    border: solid;
+    margin-top: 20px;
+    height: 120px;
+    background-color: forestgreen;
+
+}
+
+
+
+.myuka h1{
+    font-size: 50px;
+    font-style: italic;
+    margin-right: 50px;
+}
+
+.myuka p{
+    font-size: larger;
+}
+
+#disabledTextInput{
+    color: black;
+    font-weight: 700;
+    margin-left: 40.5%;
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 300px;
+    background-color: white;
+}
+
+.scanner{
+    margin-left: 43%;
+    margin-top: 20px;
+    width: 200px;
+    background-color:rgb(5, 121, 199);
+    border-radius: 5px;
+    color: white;
+}
+
+.photos{
+    height: 400px;
+    display: flex;
+    
+    
+}
+
+
+.soupeimg1{
+    border-radius: 50%; 
+    border: solid;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 90px;
+    
+}
+.soupeimg2{
+    border-radius: 50%; 
+    border: solid;
+    height: 250px;
+    margin-top: 90px;
+    margin-left: 130px;
+    
+    
+}
+
+ .compo {
+    
+    width: 50%;
+    margin-top: 60px  ;
+    margin-left: 240px;
+    margin-right: 460px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    border: solid;
+    
+
+    
+    
+}
+
+.allergenes{
+    border: solid;
+    height: 80px;
+    margin-top: 80px;
+}

@@ -1,0 +1,13 @@
+RICHARD Nicolas
+
+
+Des classes et id ont été utilisés a divers endroit du texte afin de cibler les éléments voulus. Cela permet une mise en forme précise au niveau d'éléments 
+isolés qui ont besoin d'être ajustés de type texte ou images. Je les ai utilisé sur certains titres, tous les paragraphes et images.
+
+Le media-querie @keyframes a été utilisé sur la page sommaire pour créer un slider d'images au début. Cela permet de modifier le type de défilement en sélectionnant 
+l'attribut voulu. On choisis ensuite de découper la durée du slider par étape en exprimant en pourcentage /100 afin de modifier ce qui doit etre affiché en temps voulu. 
+Puis avec l'attribut "transform" en lui affectant une valeur précédée de translatex exprimée en pixels pour associer la vitesse de défilement.
+@keyframes doit etre également précédé par une classe qui selectionne le slider et dans laquelle parait l'attribut "animation", d'une valeur affectée pour définir
+le temps de glisse et aussi la durée en infinie ou non.
+
+

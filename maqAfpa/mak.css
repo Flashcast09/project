@@ -1,0 +1,25 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.title{
+
+
+text-align:center ;
+background-color: #87bb34;   
+
+}
+
+#size{
+    
+    height: 200px;
+    margin-left: 0;
+    margin-top: 0;
+    float: left;
+   
+}

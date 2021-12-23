@@ -1,0 +1,77 @@
+h1 {
+  margin-top: 30px;
+}
+
+h2 {
+  padding-top: 50px;
+}
+
+#img1 {
+  margin-top: 60px;
+  margin-left: 160px;
+}
+#img2 {
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 60px;
+}
+
+#para1 {
+  margin-top: 90px;
+  text-align: center;
+}
+#para2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#para3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#gene {
+  width: 800px;
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+}
+
+#gene:hover {
+  transform: scale(1.1);
+  overflow: hidden;
+}
+.carte {
+  overflow: hidden;
+  transition: 0.5s all ease-in-out;
+}
+.carte:hover {
+  transform: scale(1.5);
+  overflow: hidden;
+}
+
+figcaption {
+  margin-left: 120px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+#caption1 {
+  margin-left: 150px;
+  font-size: 18px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  border: black solid 1px;
+  padding: 10px;
+}

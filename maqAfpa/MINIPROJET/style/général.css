@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(220, 224, 224, 0.596);
+  font-family: "Space Mono", monospace;
+  color: darkslategray;
+  margin: 50px;
+}
+
+p {
+  font-size: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav {
+  font-size: 25px;
+}
+
+#imagetaille {
+  height: 400px;
+  padding: 50px;
+}
