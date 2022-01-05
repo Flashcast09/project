@@ -24,7 +24,7 @@ h6 {
   font-size: 25px;
 }
 
-#imagetaille {
+.imagetaille {
   height: 400px;
   padding: 50px;
 }

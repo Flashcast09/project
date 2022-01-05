@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AFPA - développeur web & web mobile</title>
+
+    <link rel="stylesheet" href="../css/sans.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" alt="" src="../images/Logo_Afpa.jpg" />
+      <h1>Rochefort coding by afpa</h1>
+    </header>
+    <ul>
+      <li><a href="#">Le métier</a></li>
+      <li><a href="#">Objectifs de la formation</a></li>
+      <li><a href="#">Formation qualifiante</a></li>
+    </ul>
+    <div class="slide">
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4" class="carousel__prev"
+                >Go to last slide</a
+              >
+              <a href="#carousel__slide2" class="carousel__next"
+                >Go to next slide</a
+              >
+            </div>
+          </li>
+          <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide3" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+          <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2" class="carousel__prev"
+              >Go to previous slide</a
+            >
+            <a href="#carousel__slide4" class="carousel__next"
+              >Go to next slide</a
+            >
+          </li>
+        </ol>
+        <aside class="carousel__navigation">
+          <ol class="carousel__navigation-list">
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide1" class="carousel__navigation-button"
+                >Go to slide 1</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide2" class="carousel__navigation-button"
+                >Go to slide 2</a
+              >
+            </li>
+            <li class="carousel__navigation-item">
+              <a href="#carousel__slide3" class="carousel__navigation-button"
+                >Go to slide 3</a
+              >
+            </li>
+          </ol>
+        </aside>
+      </section>
+    </div>
+
+    <h2>Le métier</h2>
+    <div class="para1">
+      <p>
+        Il entre dans les coulisses du web, se faufile parmi les serveurs,
+        connait un langage que seuls ses pairs pratiquent. Le développeur
+        logiciel connaît la face cachée du web. Il code, teste, complète un
+        cahier des charges, modélise. Sans lui, point de site de contenu, d’
+        e-commerce ou d’application.<br />
+
+        <strong>Appelé aussi :</strong> développeur web,développeur web
+        front-end developpeur back-end, developpeur full-stack,développeur web
+        mobiles,informaticien de développement.
+      </p>
+    </div>
+    <h2>Objectifs de la formation</h2>
+    <div class="para1">
+      <p>
+        - Développer la partie front-end d’une application web ou web mobile en
+        intégrant les recommandations de sécurité<br />
+
+        - Développer la partie back-end d’une application web ou web mobile en
+        intégrant les recommandations de sécurité
+      </p>
+    </div>
+    <div class="para2">
+      <h3>Formation qualifiante</h3>
+      <p class="text2">
+        <strong>Durée :</strong>
+        8 mois environ (1 190 heures).<br />
+
+        Durées indicatives et ajustables en fonction des besoins des
+        personnes.<br />
+
+        <strong>Prix (net de taxe) : 10 584 €</strong><br />
+
+        Le prix de la formation est donné à titre indicatif.<br />
+        Des prises en charges totales ou partielles sont possibles en fonction
+        des financements des entreprises ou de partenaires.<br />
+
+        <strong>Validation visée :</strong>
+        Titre professionnel de niveau 5 (BTS/DUT) de développeur/se Web et Web
+        mobile Pour connaitre les passerelles vers d'autres certifications,
+        consultez le site internet de <strong>France Compétences</strong>.
+      </p>
+    </div>
+    <iframe
+      class="carte"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.638229453643!2d-0.9661840842209035!3d45.95851070834402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480140c2f69f4e41%3A0x744ea0f0e0117c0f!2s57%20Av.%20Bernadotte%2C%2017300%20Rochefort!5e0!3m2!1sfr!2sfr!4v1641378872483!5m2!1sfr!2sfr"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    >
+    </iframe>
+    <h4>Vos coordonnées</h4>
+    <form method="post" action="traitement.php">
+      <p>
+        <label class="persform" for="pseudo">Votre nom :</label>
+        <input
+          type="text"
+          name="nom"
+          id="nom"
+          placeholder="..."
+          size="30"
+          maxlength="30"
+        />
+      </p>
+      <p>
+        <label class="persform" for="email">Votre email :</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="adresse mail"
+          size="30"
+          maxlength="30"
+        />
+      </p>
+      <p>
+        <label class="persform" for="numero">Votre numéro :</label>
+        <input
+          type="text"
+          name="numero"
+          id="numero"
+          placeholder="+33"
+          size="30"
+          maxlength="30"
+        />
+      </p>
+    </form>
+    <h4>Nous retrouver</h4>
+    <div></div>
+  </body>
+</html>

@@ -12,25 +12,19 @@ h2 {
   color: red;
 }
 
-img {
+.img {
   margin-left: 0;
   margin-right: 150px;
   margin-top: 50px;
 }
 
-#img3 {
+.img3 {
   height: 300px;
   display: flex;
   padding: 50px;
   margin-left: 150px;
 }
-#img4 {
-  height: 300px;
 
-  display: flex;
-
-  justify-content: center;
-}
 
 p {
   text-align: center;
@@ -39,11 +33,11 @@ p {
   padding: 0;
 }
 
-#para1 {
+.para1 {
   margin-top: 15px;
 }
 
-#para2 {
+.para2 {
   text-align: center;
   justify-self: center;
   margin-top: 290px;
