@@ -1,0 +1,74 @@
+
+body{
+    display: flex;
+}
+
+.div1{
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    position: relative;
+    
+    background: red;
+    animation-name: cercle1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    transform: rotate(360deg);
+    
+     
+}
+
+
+
+@keyframes cercle1 {
+    0%{margin-left:-50vw;}
+    100%{margin-left:400px;}
+
+    
+    
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    position: relative;
+    border-radius: 50%;
+    background: red;
+    animation-name: cercle2;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    transform: rotate(360deg);
+    
+     
+}
+
+
+
+@keyframes cercle2 {
+    0%{margin-left:-50vw;}
+    100%{margin-left:500px;}
+    
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    position: relative;
+    border-radius: 50%;
+    background: red;
+    animation-name: cercle3;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+    transform: rotate(360deg);
+    
+     
+}
+
+
+
+@keyframes cercle3 {
+    0%{margin-left:-50vw;}
+    100%{margin-left:200px;}
+}

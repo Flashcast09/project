@@ -1,0 +1,54 @@
+
+
+
+div#slider{
+    display: flex;
+    flex-flow: row nowrap;
+    border: solid 1px black;
+    overflow: hidden;
+    width: 400px;
+    margin: 0 auto;
+    padding: 0;
+    /* animation: glisse 8s linear infinite; */
+}
+
+div#ctrl {
+    width: 400px;
+    margin: 0 auto;
+    
+    
+    
+    
+    
+}
+
+
+
+div#slider  img{
+    /* width: 33%; 
+    height: auto;*/
+    height: 400px;
+    width: 400px; 
+    display: block;
+
+}
+
+
+@keyframes glisse {
+    0%{left: 50%;}
+    33%{left:33%;}
+    66%{left: 20%;}
+    100%{left: 0%;}
+  }
+
+
+button{
+    height: 20px;
+    width: auto;
+    display: inline-block;
+    margin-left: 90px;
+    justify-content: center;
+    align-items: center; 
+    
+    
+}

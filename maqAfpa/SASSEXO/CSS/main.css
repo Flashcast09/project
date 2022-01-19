@@ -1,0 +1,200 @@
+/* ################ HEADER ################## */
+header {
+  background-color: #222;
+  padding: 2%;
+}
+header h1 {
+  color: #ff0;
+  font-family: "Grand Hotel", serif;
+  margin: 0;
+  text-align: center;
+}
+header p {
+  color: #fff;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  text-align: center;
+}
+
+/* outil de recherche */
+#search {
+  display: block;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+aside {
+  background-color: #222;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  text-align: center;
+  border-bottom: #ff0 2px solid;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  margin-bottom: 2%;
+}
+nav ul li:last-child {
+  border-bottom: 0;
+}
+nav ul li a {
+  color: #eee;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ff0;
+  font-family: "Grand Hotel", serif;
+  visibility: hidden;
+  margin: 0;
+}
+
+/* ######################## SECTION ########################### */
+.limonade {
+  background: url(../images/bg-presentation.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 2%;
+}
+.limonade h1 {
+  font-family: "Grand Hotel", serif;
+}
+.limonade p {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  color: #fff;
+}
+.limonade blockquote {
+  text-align: right;
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.limonade blockquote .quote {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.limonade blockquote .mag {
+  font-family: "Grand Hotel", serif;
+}
+
+section {
+  background-color: #eee;
+}
+
+h1, h2 {
+  font-family: "Grand Hotel", serif;
+}
+
+p {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+.product {
+  border: 0.2pt solid gray;
+  background-color: #fff;
+}
+.product img {
+  width: 98%;
+  padding: 2px;
+}
+
+.product, p {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  color: #444;
+}
+
+a {
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Grand Hotel", serif;
+}
+
+.production {
+  background-image: url(../images/bg-production.jpg);
+  background-size: cover;
+}
+.production h1 {
+  font-family: "Grand Hotel", serif;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+.production p {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+}
+.production img {
+  display: flex;
+  flex-direction: column;
+}
+.production figcaption {
+  color: #fff;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+.production a {
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #ff0;
+  padding: 20px;
+  color: #222;
+  text-decoration: none;
+  font-family: "Grand Hotel", serif;
+}
+
+.client {
+  border: 0.2pt solid gray;
+  background-color: #fff;
+}
+.client img {
+  width: 98%;
+  padding: 2px;
+}
+.client h2 {
+  color: #444;
+  display: flex;
+  justify-content: center;
+}
+.client blockquote {
+  color: #444;
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+}
+
+.contact {
+  background: url(../images/bg-contact.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 2%;
+}
+.contact h1 {
+  font-family: "Grand Hotel", serif;
+}
+.contact p {
+  font-family: "Open Sans", helvetica, arial, sans-serif;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+}
+.contact p input[type=email], .contact p textarea {
+  margin-top: 2%;
+  opacity: 0.9;
+  border: 0;
+}
