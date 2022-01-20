@@ -23,9 +23,9 @@ h1 {
 
 ul {
   list-style: none;
-  display: flex;
+  
   padding: 20px;
-  align-items: center;
+  
 }
 .para1 {
   color: slategray;
@@ -39,6 +39,7 @@ h2 {
   justify-content: center;
   color: mediumvioletred;
   margin-top: 10px;
+  
 }
 
 h3 {
