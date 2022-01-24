@@ -1,0 +1,82 @@
+
+/* // CERCLE ANIME DIAGONALE
+/* div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: red;
+    position: relative;
+    animation: example 4s linear infinite alternate;
+   
+  }
+  
+@keyframes example{
+    
+    0% { left:0px ;top:0px;}
+    100% { left:95vw ;top:90vh;}
+    
+} */ */
+    
+
+
+
+
+  
+
+  
+  
+  
+  
+  /* Cardiogramme*/
+ 
+  
+/*   
+  .intro-block svg {
+      width: 100%;
+      /* margin-left: 20px;
+      margin-right: 20px; */
+      /* position: relative;
+      transition: all 2s linear;
+  }
+  
+  .intro-block svg .ekg {
+      fill: none;
+      stroke: #a50202;
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: miter;
+      opacity: 0;
+      stroke-dashoffset: 1500;
+      stroke-dasharray: 1000;
+      animation: ekg 1.5s linear forwards infinite;
+  }
+  
+  
+  
+  
+  
+  @keyframes ekg {
+      0% {
+        opacity: 1;
+      }
+      25% {
+        opacity: 1;
+      }
+      50% {
+        stroke-dashoffset: 2000;
+      }
+      99% {
+        opacity: 1;
+        stroke-dashoffset: 3000;
+      }
+      100% {
+        stroke-dashoffset: 1000;
+      }
+  }
+   */ 
+   
+
+
+
+
+

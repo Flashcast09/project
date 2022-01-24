@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 { "liveSassCompile.settings.formats": [
 
     
@@ -25,4 +26,7 @@
 ],
 
 "liveSassCompile.settings.generateMap": false
+=======
+{
+>>>>>>> bfe0f6655c7d4b9001b8f1c373a7d0822bb6223b
 }

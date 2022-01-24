@@ -1,0 +1,250 @@
+// variables couleurs
+$yellow: #ff0;
+$light_yellow: #ff4;
+$dark_grey: #222;
+$light_grey: #444;
+$silver: #eee;
+$light: #fff;
+
+// variables fonts
+$grandHotel:"Grand Hotel", serif;
+$openSans:"Open Sans", helvetica, arial, sans-serif;
+
+
+@mixin more ($color, $background-color){ 
+    display: flex;
+    justify-content: flex-end;
+    width: fit-content;
+    margin: 0 auto;
+    background-color: $background-color;
+    padding: 20px;
+    color: $color;
+    text-decoration: none;
+    font-family: $grandHotel;
+    
+}
+
+//variables breakpoint
+
+$breakpoint_tablet : 768px;
+$breakpoint_laptop : 1024px;
+
+/* ################ HEADER ################## */
+
+header{
+background-color: $dark_grey;
+padding: 2%;
+
+
+h1{
+color: $yellow;
+font-family: $grandHotel;
+margin: 0;
+text-align: center;
+}
+p{
+color: $light;
+font-family: $openSans;
+text-align: center;
+}
+}
+
+/* outil de recherche */
+
+#search{
+display: block;
+margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+aside{
+background-color: $dark_grey;
+}
+
+nav{
+ul{
+list-style-type: none;
+padding: 0;
+li{
+text-align: center;
+border-bottom: $yellow 2px solid;
+width: 50%;
+margin: 0 auto;
+padding-bottom: 2%;
+margin-bottom: 2%;
+// cible le dernier li
+&:last-child{ //& est mis pour li
+border-bottom: 0;
+}
+a{
+color: $silver;
+font-family: $openSans;
+text-decoration: none;
+}
+}
+}
+}
+
+.copyright{
+color: $yellow;
+font-family: $grandHotel;
+visibility: hidden;
+margin: 0;
+}
+
+/* ######################## SECTION ########################### */
+
+.limonade{
+background: url(../images/bg-presentation.jpg);
+background-size: cover;
+color: $light;
+padding: 2%;
+h1{
+font-family: $grandHotel;
+}
+p{
+font-family: $openSans;
+color: $light;
+}
+blockquote{
+text-align: right;
+margin-left: 10%;
+margin-right: 5%;
+.quote{
+font-family: $openSans;
+font-size: 1.2em;
+font-style: italic;
+}
+.mag{
+font-family: $grandHotel;
+}
+}
+}
+
+section{
+    background-color: $silver
+}
+    
+    
+
+h1, h2{
+font-family: $grandHotel;
+}
+p{
+font-family: $openSans;
+}
+.product{
+border: 0.2pt solid gray;
+background-color: $light;
+img{
+    width: 98%;
+    padding: 2px;
+
+}
+}
+
+.product, p{
+    font-family: $openSans;
+    color: $light_grey;
+    
+}
+
+
+
+a{
+    @include more($light, $dark_grey)
+    
+}
+
+.production{
+    background-image: url(../images/bg-production.jpg);
+    background-size: cover;
+    h1{
+        font-family: $grandHotel;
+        color: $light;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    p{
+        font-family: $openSans;
+        color: $light;
+        display: flex;
+        align-items: center;
+        
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    figcaption{
+        color: $light;
+        font-family: $openSans;
+        display: flex;
+        justify-content: center;
+    }
+    a{
+        @include more($dark_grey, $yellow)
+    }
+}
+
+
+
+.client{
+    border: 0.2pt solid gray;
+    background-color: $light;
+    img{
+        width: 98%;
+        padding: 2px;
+    }
+    h2{
+        color: $light_grey;
+        display: flex;
+        justify-content: center;
+        
+    }
+    blockquote{
+        color: $light_grey;
+        font-family: $openSans;
+    }
+
+}
+
+
+
+
+.contact{
+background: url(../images/bg-contact.jpg);
+background-size: cover;
+color: $light;
+padding: 2%;
+h1{
+font-family: $grandHotel;
+}
+p{
+font-family: $openSans;
+display: flex;
+color: $light;
+flex-direction: column;
+input[type=email], 
+textarea{
+margin-top: 2%;
+opacity: 0.9;
+border: 0;
+}
+}
+}
+
+// MEDIA QUERY TABLETTE// 
+
+@media screen and (min-width: 768px){
+
+}
+    
+// MEDIA QUERY LAPTOP //
+
+@media screen and (min-width: 1024px){
+
+}

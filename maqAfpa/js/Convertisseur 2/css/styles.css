@@ -1,0 +1,45 @@
+div, form, p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+}
+
+input {
+    margin: 3%;
+}
+
+.bouton {
+    width: 170%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.bg_euro {
+    background-image: url(../image/france.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.bg_rouble {
+    background-image: url(../image/russe.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_yen {
+    background-image: url(../image/chine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_dollars {
+    background-image: url(../image/americain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
