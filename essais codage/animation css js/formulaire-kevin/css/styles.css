@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(199, 247, 199);
+}
+.boite{
+    padding: 15%;
+}
+form{
+    padding: 2%;
+    border:5px rgb(74, 128, 153) solid;
+    border-radius: 2%;
+    background-color: rgba(240, 248, 255, 0.589);
+}
+p{
+    color:red;
+    font-size: 0.8em;
+    font:italic;
+}
+h1{
+    color:red;
+}
+input{
+    box-shadow: none !important;
+}
+input:focus{
+    border:red 1px solid !important;
+    
+}
