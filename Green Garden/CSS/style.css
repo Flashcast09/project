@@ -1,0 +1,123 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(75, 75, 75)!important;
+    
+}
+
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-success{
+    background-color:rgb(131, 191, 33) !important;
+    border-color: rgb(131, 191, 33)!important;
+}
+
+.container1{
+    color: rgb(131, 191, 33);
+}
+
+
+.collapse{
+    display: flex;
+    justify-content: center;
+    color: rgb(131, 191, 33) !important;
+}
+
+.navbar-nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+
+.nav-link{
+    color: rgb(131, 191, 33)!important;
+    font-size: 42px;
+    
+}
+
+.panier{
+    color: rgb(131, 191, 33);
+    display: flex;
+
+}
+
+h2{
+    display:flex;
+    justify-content: center;
+    color: rgb(131, 191, 33);
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.center-corners{
+    font-weight: bold;
+}
+.black{
+    padding-right: 13px;
+    color: black;
+}
+
+.text-presta{
+    text-align: center;
+    font-size: 16px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    padding: 50px;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+    
+}
+
+section div .swiper-slide{
+    border: 5px red;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+section div{
+    margin-top: 40px;
+   
+}
+
+section p{
+    color: aliceblue;
+}
+
+section a{
+    color: rgb(131, 191, 33);
+    text-decoration: none;
+    
+    
+}
+
+h4{
+    padding: 40px;
+}
+
+
+.col{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+
