@@ -1,123 +1,335 @@
-body{
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: rgb(219, 217, 213) !important;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider{
     margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgb(75, 75, 75)!important;
-    
+    width: 80%;
+    margin-top: 100px;
 }
 
-ul{
-    display:flex;
-    justify-content: center;
-    align-items: center;
+.legende-titre{
+    font-size: 28px;
 }
 
-.btn-success{
-    background-color:rgb(131, 191, 33) !important;
-    border-color: rgb(131, 191, 33)!important;
+.legende-text{
+    font-size: 24px;
 }
 
-.container1{
-    color: rgb(131, 191, 33);
+.legendebtn i{
+  border: 2px black!important;
+  color:black;
 }
 
 
-.collapse{
+.btn-success {
+  background-color: rgb(131, 191, 33) !important;
+  border-color: rgb(131, 191, 33) !important;
+  font-weight: bold !important;
+  font-size: 22px !important;
+}
+
+.btn-success:hover {
+  color: aliceblue !important;
+  cursor: pointer !important;
+  background-color: rgb(106, 155, 27) !important;
+}
+
+.change {
+  background: transparent !important;
+}
+
+.change:hover {
+  color: black !important;
+}
+
+.form-label {
+  display: flex;
+}
+
+.container1 {
+  color: rgb(131, 191, 33);
+}
+
+.form-control {
+  margin-right: 150px;
+}
+
+.collapse {
+  display: flex;
+  justify-content: center;
+  color: rgb(131, 191, 33) !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.nav-link {
+  color: rgb(131, 191, 33) !important;
+  font-size: 42px;
+  padding: 50px !important;
+}
+
+.link:hover {
+  color: aliceblue !important;
+}
+
+.panier {
+  color: rgb(131, 191, 33);
+  display: flex;
+}
+
+.panier:hover {
+  color: aliceblue;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(131, 191, 33);
+  padding-top: 40px;
+  flex-wrap: wrap;
+  font-size: 48px!important;
+}
+
+.center-corners {
+  font-weight: bold;
+}
+.black {
+  padding-right: 13px;
+  padding-left: 13px;
+  color: black;
+}
+
+.text-presta {
+  text-align: center;
+  font-size: 16px;
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(0, 0, 0);
+  padding: 50px;
+  justify-content: center;
+  font-size: 24px;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 29px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section div {
+  margin-top: 15px;
+}
+
+section p {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+section a {
+  color: rgb(131, 191, 33);
+  text-decoration: none;
+  font-size: 25px;
+}
+
+h4 {
+  padding: 15px;
+}
+
+h4 a:hover{
+    color: aliceblue!important;
+}
+
+.card-title {
+  font-size: 28px;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  background-color: rgb(230, 227, 224);
+  font-size: 25px;
+}
+
+
+
+.container2 {
+  margin-top: 100px;
+  padding: 50px;
+  justify-content: center;
+  display: block;
+  padding: 5px;
+}
+
+.facilite {
+  display: block;
+  width: 15%;
+  margin: 1px;
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  padding: 10px;
+}
+
+.fa-solid {
+  margin: 30px;
+  color: rgb(106, 155, 27);
+}
+
+.reseaux {
+  margin-top: 10px;
+}
+
+.reseauxtitre {
+  padding: 100px;
+}
+
+.fa-brands {
+  color: rgb(106, 155, 27);
+  padding: 30px;
+}
+
+.fa-brands:hover{
+  color: black;
+}
+
+.sociaux {
+  background-color: rgb(253, 253, 253);
+  width: fit-content;
+  border-radius: 10px;
+}
+
+
+
+.foot{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(49 , 54, 56);
+  color: aliceblue;
+  text-align: center;
+  margin-top: 50px!important;
+  
+  
+}
+
+.foot a{
+  display:flex;
+  
+  text-decoration: none;
+  color: aliceblue;
+  justify-content: center;
+  
+}
+
+.foot a:hover{
+  color:rgb(106, 155, 27) ;
+}
+  
+
+
+@media (max-width: 425px){
+  *{
+    margin: 0 auto;
+  }
+
+
+
+  .col{
     display: flex;
     justify-content: center;
-    color: rgb(131, 191, 33) !important;
-}
+    padding: 60px;
+    background-color: rgb(230, 227, 224);
+    font-size: 25px;
+    
+  }
 
-.navbar-nav{
-    display:flex;
+
+  .facilite{
+    display: block;
+    width: 15%;
+    margin: 1px;
+    background-color: rgb(246, 246, 246);
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 4px;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    
-}
+    font-size: 22px;
+    padding: 10px;  
+    margin-top: 20px!important;
 
-.nav-link{
-    color: rgb(131, 191, 33)!important;
-    font-size: 42px;
-    
-}
+  }
 
-.panier{
-    color: rgb(131, 191, 33);
+  h2 {
     display: flex;
-
-}
-
-h2{
-    display:flex;
     justify-content: center;
     color: rgb(131, 191, 33);
     padding-top: 40px;
     flex-wrap: wrap;
-}
-
-.center-corners{
-    font-weight: bold;
-}
-.black{
-    padding-right: 13px;
-    color: black;
-}
-
-.text-presta{
+    font-size: 48px!important;
     text-align: center;
-    font-size: 16px;
+  }
+
+  .map{
     
+    display: flex;
+    
+    margin-bottom: 30px;
+    justify-content: center;
+  }
+
+  .sociaux{
+    margin-left: 40px;
+    
+  }
+
+
+  .sociaux p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+  }
+
+  .foot{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(49 , 54, 56);
     color: aliceblue;
-    padding: 50px;
-    justify-content: center;
-    font-size: 24px;
-    align-items: center;
-    
-}
-
-section div .swiper-slide{
-    border: 5px red;
-}
-
-section{
-    display: flex;
-    justify-content: space-around;
     text-align: center;
-    padding: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-section div{
-    margin-top: 40px;
-   
-}
-
-section p{
-    color: aliceblue;
-}
-
-section a{
-    color: rgb(131, 191, 33);
-    text-decoration: none;
     
     
+    
+    
+    
+  }
+
 }
-
-h4{
-    padding: 40px;
-}
-
-
-.col{
-    display: flex;
-    justify-content: center;
-    padding: 80px;
-    margin: 0 auto;
-}
-
-
