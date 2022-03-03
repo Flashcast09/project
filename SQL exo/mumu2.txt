@@ -1,0 +1,41 @@
+exercice 1 
+
+SELECT * FROM client WHERE prenom = "Muriel"
+AND PASSWORD = SHA1("test11") ;
+
+exercice 2
+
+SELECT nom, COUNT(*) AS nbr_items // on sélectionne le nom des produits on les compte et renomme avec un alias "total" 
+FROM commande_ligne		  // on recup dans la table associée
+GROUP BY nom 			  // on les regroupe par le nom pour éviter les doublons
+HAVING nbr_items > 1		  // il faut filtrer les produits avec un nombre de d'items supérieur à 1
+ORDER BY nbr_items DESC		  // on les organise
+
+
+exercice 3
+
+SELECT nom, COUNT(*) AS nbr_items , GROUP_CONCAT(`commande_id`) AS liste_commandes // GO GOOGLE 
+FROM commande_ligne
+GROUP BY nom 
+HAVING nbr_items > 1
+ORDER BY nbr_items DESC;
+
+
+exercice 4
+
+UPDATE commande_ligne SET prix_total = replace(prix_total, '0', 'quantite*prix_unitaire') // pour update une colonne, commencer par UPDATE la table SET le nom de la colonne
+WHERE prix_total = quantite*prix_unitaire ;						  // et a l'aide de REPLACE on dit ce que l'on veut remplacer.
+											  // le where est nécessaire pour quelque soit la raison
+
+
+exercice 5
+
+SELECT client.prenom, client.nom, commande.date_achat, commande_id, SUM(prix_total) AS prix_commande // on va chercher les colonnes qui nous intéresse dans les tables
+FROM `commande_ligne` 										     // le SUM pirx total reconnait par lui-même les valeurs à additionner 
+LEFT JOIN commande ON commande.id = commande_ligne.commande_id
+LEFT JOIN client ON client.id = commande.client_id
+GROUP BY `commande_id`;
+
+
+exercice 6
+

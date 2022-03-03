@@ -1,0 +1,63 @@
+
+
+mysql> select * from personne where salaire between 2000 and 3000
+
+mysql> select * from personne
+    -> where ville = "Marseille"
+    -> and salaire not between 2000 and 2500;
+
+
+mysql> select ville, sum(salaire) from personne group by ville ;
+
+mysql> SELECT nump FROM vehicule WHERE marque="Renault" UNION SELECT nump FROM vehicule WHERE marque="Citroen";
+ou
+mysql> select distinct(nump) from vehicule where marque = "renault" or marque = "citroen";
+
+
+Pour sélectionner toutes les données de la table personne
+SELECT nom, prenom, ville, marque, modele
+FROM personne, vehicule
+WHERE personne.num = vehicule.nump;
+
+mysql> select * from personne left join vehicule on num = nump
+    -> union
+    -> select * from personne right join vehicule on num = nump order by *num or nump au choix* asc;
+
+Pour répondre à la question de l’exercice 7, on peut utiliser les requêtes imbriquées (selection dans une selection *IN*)
+SELECT nom, prenom
+FROM personne, vehicule WHERE nump = num
+AND marque ="Fiat"
+AND num IN (SELECT nump
+FROM vehicule
+WHERE marque = "Peugeot");
+
+
+exercice 8
+select distinct marque from vehicule 
+join personne on nump=num where ville ='Paris' 
+and exists(select count(nump) 
+from vehicule group by nump having count(nump)>=2);
+
+
+mysql> select marque, ville
+    -> from vehicule, personne where nump = num
+    -> having
+    -> ville= "paris" or ville="lyon";
+
+
+
+
+
+exercice 10
+mysql> select nom, prenom
+    -> from personne, (select nump from vehicule where marque= "peugeot") as peugeot
+    -> where peugeot.nump = personne.num and num not in (select nump from vehicule where marque ="fiat");
+
+exercice 11
+select nom, nump
+    -> from vehicule
+    -> join personne on nump=num
+    -> group by nump
+    -> having count()>= all (select count()
+    -> from vehicule
+    -> group by nump);
