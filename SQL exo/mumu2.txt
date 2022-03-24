@@ -39,3 +39,49 @@ GROUP BY `commande_id`;
 
 exercice 6
 
+UPDATE commande AS t1 
+INNER JOIN 
+    ( SELECT commande_id, SUM(commande_ligne.prix_total) AS p_total 
+      FROM commande_ligne 
+      GROUP BY commande_id ) t2 
+          ON  t1.id = t2.commande_id 
+SET t1.cache_prix_total = t2.p_total;
+
+exercice 7
+
+SELECT sum(cache_prix_total) as prix_total, MONTH(date_achat) AS MONTH  FROM commande GROUP BY MONTH ; // objet de calcul pour faire le total des prix donner un alias,
+													// selectionner aussi le mois  et lui donner un alias et enfin 
+													// grouper par mois .
+
+exercice 8
+
+SELECT  client.nom, client.prenom, SUM(commande.cache_prix_total) AS prix_total from commande // On veut le nom et prenom des clients puis calculer la somme de leur commandes
+LEFT JOIN client ON client.id = commande.client_id						// respectives ensuite on link la table client et commande grace aux id 
+GROUP BY commande.client_id									// puis on les group par l'id du client, on tri du plus grand au plus petit
+ORDER BY  prix_total DESC									// et on limite a 10 le nombre de résultats.
+LIMIT 10  ;
+
+
+exercice 9
+
+SELECT sum(cache_prix_total) as prix_total, date(date_achat) AS date  FROM commande GROUP BY date ; // ouah c'était dur regarder exercice 7 .
+
+exercice 11
+
+UPDATE commande 
+SET category = '1'
+WHERE cache_prix_total < 200 ;
+
+UPDATE commande 
+SET category = '2'
+WHERE cache_prix_total BETWEEN 200 AND 500 ;
+
+UPDATE commande 
+SET category = '3'
+WHERE cache_prix_total BETWEEN 500 AND 1000 ;
+
+UPDATE commande 
+SET category = '4'
+WHERE cache_prix_total > 1000 ; 
+
+
