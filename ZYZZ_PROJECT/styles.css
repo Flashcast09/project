@@ -1,0 +1,42 @@
+.zyzz{
+    height: 150px;
+
+}
+
+
+
+
+
+.inscrire{
+    color: white;
+    
+    background: linear-gradient(to right,#006FD6,#458DC0);
+    border: none;
+    border-radius: 25px;
+    margin-right: 3em;
+    margin-top: 0.5em;
+}
+
+.connecter{
+    color: white;
+    
+    
+    background: linear-gradient(to right,#006FD6,#458DC0);
+    border: none;
+    border-radius: 25px;
+    margin-right: 3em;
+    margin-top: 0.5em;
+}
+
+.item1{
+    color: #006FD6;
+    margin: 1em;
+    margin-top: 0.8em;     
+}
+
+.item2{
+    color: rgb(252, 229, 59);
+    margin: 0.2em;
+    margin-top: 0.8em;     
+}
+
